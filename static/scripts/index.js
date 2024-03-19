@@ -69,7 +69,7 @@ if(road_num == 1){
 }
 else if(road_num == 2){
     road = roads['road-2'];
-    r_x = 16500;
+    r_x = 16500;    // cringe
     r_y = -6700;
 }
 else if(road_num == 3){
