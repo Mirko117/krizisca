@@ -101,7 +101,7 @@ else if(road.rotation == 'right'){
 
 // draw the vehicle
 vehicles['car-blue'].image.onload = function() {
-     drawVehicle(vehicle, r_x, r_y, vehicle.width, vehicle.height, vehicle.rotation);
+    setTimeout(drawVehicle(vehicle, r_x, r_y, vehicle.width, vehicle.height, vehicle.rotation), 100);
 }
 
 
