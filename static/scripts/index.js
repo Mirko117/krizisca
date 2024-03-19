@@ -62,7 +62,6 @@ let road;
 var r_x;
 var r_y;
 var road_num = getRandomInt(1, 5);
-console.log(road_num);
 if(road_num == 1){
     road = roads['road-1'];
     r_x = -4;
@@ -70,8 +69,8 @@ if(road_num == 1){
 }
 else if(road_num == 2){
     road = roads['road-2'];
-    r_x = -100;
-    r_y = -100;
+    r_x = 16500;
+    r_y = -6700;
 }
 else if(road_num == 3){
     road = roads['road-3'];
@@ -96,7 +95,7 @@ else if(road.rotation == 'down'){
     vehicle.rotation = 270;
 }
 else if(road.rotation == 'right'){
-    vehicle.rotation = 180;
+    vehicle.rotation = 179;
 }
 
 
